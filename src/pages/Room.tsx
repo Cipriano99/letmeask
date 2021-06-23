@@ -75,7 +75,7 @@ export function Room() {
     }
 
     if (!user) {
-      throw new Error('You most be logged in');
+      throw new Error('You most be logged in'); //
     }
 
     const question = {

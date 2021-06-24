@@ -12,6 +12,13 @@
 #page-room header .content img {
   max-height: 45px;
 }
+#page-room header .content > div {
+  display: flex;
+  gap: 16px;
+}
+#page-room header .content > div button {
+  height: 40px;
+}
 
 #page-room main {
   max-width: 800px;

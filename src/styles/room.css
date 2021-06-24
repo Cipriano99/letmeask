@@ -81,3 +81,7 @@
   font-weight: 500;
   cursor: pointer;
 }
+
+#page-room main .question-list {
+  margin-top: 40px;
+}

@@ -31,3 +31,25 @@
   color: #737380;
   font-size: 14px;
 }
+
+.question footer button {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+.question footer button:hover {
+  filter: brightness(0.7);
+}
+.question footer button.like-button {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  color: #737380;
+}
+.question footer button.like-button.liked {
+  color: #835afd;
+}
+.question footer button.like-button.liked svg path {
+  stroke: #835afd;
+}
